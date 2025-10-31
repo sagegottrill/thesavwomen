@@ -14,6 +14,16 @@ import Onboarding from "./pages/Onboarding";
 import Privacy from "./pages/Privacy";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
+import Programs from "./pages/Programs";
+import GirlsOfImpact from "./pages/GirlsOfImpact";
+import CodeBloom from "./pages/CodeBloom";
+import RiseAndRadiate from "./pages/RiseAndRadiate";
+import CrownHer from "./pages/CrownHer";
+import ThriveMakers from "./pages/ThriveMakers";
+import WellSpring from "./pages/WellSpring";
+import BrightSteps from "./pages/BrightSteps";
+import EchoHer from "./pages/EchoHer";
+import WealthWise from "./pages/WealthWise";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +43,16 @@ const App = () => {
               <Route path="/events" element={<Events />} />
               <Route path="/tools/todo" element={<TodoApp />} />
               <Route path="/join" element={<Onboarding />} />
+              <Route path="/programs" element={<Programs />} />
+              <Route path="/programs/girls-of-impact" element={<GirlsOfImpact />} />
+              <Route path="/programs/codebloom" element={<CodeBloom />} />
+              <Route path="/programs/rise-and-radiate" element={<RiseAndRadiate />} />
+              <Route path="/programs/crownher" element={<CrownHer />} />
+              <Route path="/programs/thrivemakers" element={<ThriveMakers />} />
+              <Route path="/programs/wellspring" element={<WellSpring />} />
+              <Route path="/programs/brightsteps" element={<BrightSteps />} />
+              <Route path="/programs/echoher" element={<EchoHer />} />
+              <Route path="/programs/wealthwise" element={<WealthWise />} />
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="*" element={<NotFound />} />

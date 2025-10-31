@@ -30,42 +30,32 @@ const AppLayout: React.FC = () => {
       <NavigationUpdated />
       <main className="relative">
         {/* Hero Section */}
-        <section id="hero" className="relative">
+        <section id="hero">
           <Hero />
-          <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-green-50 to-transparent"></div>
         </section>
 
         {/* Carousel Section */}
-        <section id="carousel" className="relative">
-          <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-white to-transparent"></div>
+        <section id="carousel" className="border-t-4 border-green-700">
           <SAVWomenCarousel />
-          <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent"></div>
         </section>
 
         {/* Value Proposition Section */}
-        <section id="value-proposition" className="relative">
-          <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-green-50 to-transparent"></div>
+        <section id="value-proposition" className="border-t-4 border-green-700">
           <ValueProposition />
-          <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent"></div>
         </section>
 
         {/* Success Stories Section */}
-        <section id="success-stories" className="relative">
-          <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-green-50 to-transparent"></div>
+        <section id="success-stories" className="border-t-4 border-green-700">
           <SuccessStories />
-          <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent"></div>
         </section>
 
         {/* About Section */}
-        <section id="about" className="relative">
-          <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-green-50 to-transparent"></div>
+        <section id="about">
           <About />
-          <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-emerald-50 to-transparent"></div>
         </section>
 
         {/* Newsletter Section */}
-        <section id="newsletter" className="relative">
-          <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-white to-transparent"></div>
+        <section id="newsletter">
           <Newsletter />
         </section>
       </main>

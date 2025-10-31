@@ -11,6 +11,7 @@ const NavigationUpdated: React.FC = () => {
   const navItems = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
+    { name: 'Programs', href: '/programs' },
     { name: 'Todo App', href: '/tools/todo' },
     { name: 'Blog', href: '/blog' },
     { name: 'Resources', href: '/resources' },
@@ -92,15 +93,13 @@ const NavigationUpdated: React.FC = () => {
             <Link to="/join">
               <Button
                 className={cn(
-                  "relative overflow-hidden group bg-gradient-to-r from-green-600 to-green-700",
-                  "text-white font-semibold shadow-lg hover:shadow-xl",
-                  "transition-all duration-300 transform hover:scale-105",
+                  "bg-black hover:bg-gray-900",
+                  "text-white font-semibold",
+                  "transition-colors",
                   "px-6"
                 )}
               >
-                <span className="relative z-10 whitespace-nowrap">Join Us</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-green-700 to-green-800 transition-transform duration-300 transform translate-x-full group-hover:translate-x-0" />
-                <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <span className="whitespace-nowrap">Join Us</span>
               </Button>
             </Link>
           </div>
@@ -165,10 +164,8 @@ const NavigationUpdated: React.FC = () => {
             ))}
             <div className="pt-4 border-t border-gray-100">
               <Link to="/join" onClick={() => setIsOpen(false)}>
-                <Button className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold relative overflow-hidden group">
-                  <span className="relative z-10">Join Us</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-green-700 to-green-800 transition-transform duration-300 transform translate-x-full group-hover:translate-x-0" />
-                  <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <Button className="w-full bg-black hover:bg-gray-900 text-white font-semibold transition-colors">
+                  Join Us
                 </Button>
               </Link>
             </div>

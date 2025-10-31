@@ -223,10 +223,10 @@ const Events: React.FC = () => {
                       </p>
 
                       <div className="space-y-3">
-                        <Button className={`w-full bg-gradient-to-r ${event.gradient} hover:opacity-90 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105`}>
+                        <Button className="w-full bg-black hover:bg-gray-900 text-white font-semibold transition-colors">
                           RSVP Now
                         </Button>
-                        <Button variant="outline" size="sm" className="w-full border-2 border-gray-200 hover:border-green-400 hover:bg-green-50">
+                        <Button variant="outline" size="sm" className="w-full border-2 border-black hover:bg-gray-100">
                           <Calendar className="mr-2 h-4 w-4" />
                           Add to Calendar
                         </Button>

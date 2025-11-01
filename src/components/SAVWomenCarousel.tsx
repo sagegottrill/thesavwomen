@@ -59,7 +59,7 @@ const SAVWomenCarousel: React.FC = () => {
     },
     {
       title: "Innovation",
-      description: "Fostering creativity and innovative thinking to solve community challenges through collaborative initiatives."
+      description: "Fostering creativity and innovative thinking to solve community challenges through collaborative programs."
     },
     {
       title: "Global Impact",
@@ -72,7 +72,7 @@ const SAVWomenCarousel: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-            SAV WOMEN Initiative
+            The SAV Women
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
             Discover the core pillars that drive our mission to empower young women and create lasting change
@@ -111,7 +111,7 @@ const SAVWomenCarousel: React.FC = () => {
 
         <div className="text-center mt-8 sm:mt-12">
           <p className="text-base sm:text-lg text-gray-900 font-semibold">
-            SAV WOMEN - Sound and Vibrant Women Initiative
+            SAV WOMEN - Sound and Vibrant Women
           </p>
           <p className="text-sm sm:text-base text-gray-600 mt-2">
             Empowering young women and inspiring change since 2024

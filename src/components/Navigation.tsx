@@ -29,7 +29,7 @@ const Navigation: React.FC = () => {
               {/* Logo */}
               <div className="w-12 h-12 rounded-full bg-white shadow-lg flex items-center justify-center overflow-hidden transform transition-transform duration-300 group-hover:scale-110">
                 <img 
-                  src="/the sav women initAITIVE.jpg" 
+                  src="/hero-1.jpg" 
                   alt="SAV WOMEN Logo" 
                   className="w-full h-full object-cover rounded-full transition-transform duration-500 group-hover:scale-105"
                 />

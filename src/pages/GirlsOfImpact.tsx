@@ -25,7 +25,7 @@ const GirlsOfImpact = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                Girls of Impact Initiative
+                Girls of Impact
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8">
                 Our flagship program equipping young women with future-ready tech skills
@@ -48,7 +48,7 @@ const GirlsOfImpact = () => {
                   A Digital Mentorship & Innovation Ecosystem
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  The Girls of Impact Initiative is the heart of The SAV Women Foundation. 
+                  Girls of Impact is the heart of The SAV Women Foundation. 
                   It's a comprehensive program designed to equip young women with the skills 
                   they need to thrive in today's innovation-driven world.
                 </p>

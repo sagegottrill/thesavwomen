@@ -106,7 +106,7 @@ const Admin: React.FC = () => {
       program: 'Community Leadership',
       mentor: 'Lisa Chen',
       lastActivity: '2024-01-19',
-      notes: 'Natural community leader, organized successful local initiatives.'
+      notes: 'Natural community leader, organized successful local programs.'
     },
     {
       id: '4',

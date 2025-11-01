@@ -27,7 +27,7 @@ const About: React.FC = () => {
   ];
 
   const milestones = [
-    { year: '2024', title: 'Founded', description: 'SAV WOMEN initiative launched' },
+    { year: '2024', title: 'Founded', description: 'SAV WOMEN launched' },
     { year: '2025', title: 'First Program', description: '50 women completed leadership training' },
     { year: '2025', title: 'Community Growth', description: 'Expanded to 10 communities' },
     { year: '2025', title: 'Digital Platform', description: 'Launched online resources and tools' },

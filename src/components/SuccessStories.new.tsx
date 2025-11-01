@@ -15,7 +15,7 @@ const SuccessStories: React.FC = () => {
     {
       name: 'Diana Moses',
       role: 'Program Director',
-      quote: 'I lead our programs and initiatives, ensuring every woman has access to the resources and support she needs to thrive. Our community grows stronger every day.',
+      quote: 'I lead our programs, ensuring every woman has access to the resources and support she needs to thrive. Our community grows stronger every day.',
       image: '/light skined.png',
       achievements: ['Program Excellence', 'Mentorship Leader', 'Innovation Award']
     },

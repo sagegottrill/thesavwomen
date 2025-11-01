@@ -119,7 +119,7 @@ const Programs = () => {
                     FLAGSHIP PROGRAM
                   </span>
                   <h2 className="text-4xl font-bold mt-6 mb-6">
-                    Girls of Impact Initiative
+                    Girls of Impact
                   </h2>
                   <p className="text-xl text-gray-300 mb-6">
                     A digital mentorship and innovation ecosystem designed to equip young women 

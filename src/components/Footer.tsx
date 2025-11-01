@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
               <div className="w-8 sm:w-10 h-8 sm:h-10 rounded-lg bg-gradient-to-br from-green-700 to-green-600 p-[1px] shadow-sm transform transition-transform duration-500 group-hover:scale-105">
                 <div className="w-full h-full rounded-lg overflow-hidden">
                   <img
-                    src="/the sav women initAITIVE.jpg"
+                    src="/hero-1.jpg"
                     alt="SAV WOMEN Logo"
                     className="w-full h-full object-cover rounded-lg transform transition-transform duration-700 group-hover:scale-110"
                   />

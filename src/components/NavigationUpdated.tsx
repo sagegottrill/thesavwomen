@@ -36,7 +36,7 @@ const NavigationUpdated: React.FC = () => {
               <div className="relative">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-green-700 shadow-lg flex items-center justify-center overflow-hidden group-hover:scale-110 transition-transform duration-300">
                   <img
-                    src="/the sav women initAITIVE.jpg"
+                    src="/hero-1.jpg"
                     alt="SAV WOMEN Logo"
                     className="w-full h-full object-cover rounded-full"
                   />

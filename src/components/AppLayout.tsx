@@ -6,6 +6,7 @@ import ValueProposition from './ValueProposition';
 import SuccessStories from './SuccessStories';
 import About from './About';
 import Newsletter from './Newsletter';
+import PartnersSection from './PartnersSection';
 import Footer from './Footer';
 import { useScroll } from '@/hooks/use-scroll';
 
@@ -52,6 +53,11 @@ const AppLayout: React.FC = () => {
         {/* About Section */}
         <section id="about">
           <About />
+        </section>
+
+        {/* Partners Section */}
+        <section id="partners">
+          <PartnersSection />
         </section>
 
         {/* Newsletter Section */}

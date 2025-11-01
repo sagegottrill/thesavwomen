@@ -24,6 +24,8 @@ import WellSpring from "./pages/WellSpring";
 import BrightSteps from "./pages/BrightSteps";
 import EchoHer from "./pages/EchoHer";
 import WealthWise from "./pages/WealthWise";
+import Impact from "./pages/Impact";
+import Partners from "./pages/Partners";
 
 const queryClient = new QueryClient();
 
@@ -53,6 +55,8 @@ const App = () => {
               <Route path="/programs/brightsteps" element={<BrightSteps />} />
               <Route path="/programs/echoher" element={<EchoHer />} />
               <Route path="/programs/wealthwise" element={<WealthWise />} />
+              <Route path="/impact" element={<Impact />} />
+              <Route path="/partners" element={<Partners />} />
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="*" element={<NotFound />} />

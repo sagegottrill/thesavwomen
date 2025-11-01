@@ -12,7 +12,8 @@ const NavigationUpdated: React.FC = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Programs', href: '/programs' },
-    { name: 'Todo App', href: '/tools/todo' },
+    { name: 'Impact', href: '/impact' },
+    { name: 'Partners', href: '/partners' },
     { name: 'Blog', href: '/blog' },
     { name: 'Resources', href: '/resources' },
     { name: 'Events', href: '/events' }

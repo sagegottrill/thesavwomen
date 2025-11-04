@@ -18,19 +18,12 @@ const Footer: React.FC = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div className="sm:col-span-2">
-            <div className="flex items-center space-x-3 mb-4 sm:mb-6 group">
-              <div className="w-8 sm:w-10 h-8 sm:h-10 rounded-lg bg-gradient-to-br from-green-700 to-green-600 p-[1px] shadow-sm transform transition-transform duration-500 group-hover:scale-105">
-                <div className="w-full h-full rounded-lg overflow-hidden">
-                  <img
-                    src="/hero-1.jpg"
-                    alt="SAV WOMEN Logo"
-                    className="w-full h-full object-cover rounded-lg transform transition-transform duration-700 group-hover:scale-110"
-                  />
-                </div>
-              </div>
-              <h3 className="text-xl sm:text-2xl font-playfair font-bold bg-gradient-to-r from-white via-neutral-200 to-neutral-300 bg-clip-text text-transparent transform transition-all duration-500">
-                SAV WOMEN
-              </h3>
+            <div className="flex items-center mb-4 sm:mb-6 group">
+              <img
+                src="/SAV WOMEN.pdf.png"
+                alt="SAV WOMEN Logo"
+                className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+              />
             </div>
             <p className="text-neutral-300 mb-4 sm:mb-6 text-xs sm:text-sm leading-relaxed max-w-md">
               Empowering women to <span className="text-neutral-100 font-medium">echo brilliance</span> and inspiring change through 

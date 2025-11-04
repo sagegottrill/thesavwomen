@@ -44,12 +44,6 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Left Column - Text Content */}
           <div className="flex flex-col justify-center space-y-8">
-            <div>
-              <span className="inline-block bg-green-50 text-green-800 text-sm font-semibold px-4 py-2 rounded-full">
-                The SAV Women
-              </span>
-            </div>
-
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-gray-900">
               Empowering Women to Echo Brilliance
             </h1>

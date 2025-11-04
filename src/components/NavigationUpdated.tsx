@@ -12,6 +12,7 @@ const NavigationUpdated: React.FC = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Programs', href: '/programs' },
+    { name: 'App', href: '/app' },
     { name: 'Impact', href: '/impact' },
     { name: 'Partners', href: '/partners' },
     { name: 'Blog', href: '/blog' },
@@ -27,110 +28,47 @@ const NavigationUpdated: React.FC = () => {
   const isHomePage = location.pathname === '/';
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white/98 backdrop-blur-md shadow-sm border-b border-neutral-100">
+    <nav className="fixed top-0 w-full z-50 bg-gradient-to-r from-green-900 via-green-800 to-green-900 backdrop-blur-md shadow-xl border-b border-green-950">
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between container-xl mx-auto h-[4.5rem]">
-          <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center space-x-4 hover:opacity-90 transition-all duration-300 group">
-              {/* Enhanced Logo */}
-              <div className="relative">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-green-700 shadow-lg flex items-center justify-center overflow-hidden group-hover:scale-110 transition-transform duration-300">
-                  <img
-                    src="/hero-1.jpg"
-                    alt="SAV WOMEN Logo"
-                    className="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <Heart className="w-1.5 h-1.5 text-white fill-current" />
-                </div>
-              </div>
-              {/* Enhanced Text */}
-              <div className="overflow-hidden">
-                <h1 className="font-playfair font-bold text-lg bg-gradient-to-r from-green-900 to-green-700 bg-clip-text text-transparent">
-                  SAV WOMEN
-                </h1>
-                <p className="text-[11px] text-neutral-500 -mt-0.5 tracking-wider uppercase">
-                  Empowering Women
-                </p>
-              </div>
-            </Link>
-          </div>
-
-          <div className="hidden lg:block flex-grow">
-            <div className="flex items-center justify-center space-x-1 xl:space-x-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  className={cn(
-                    "relative px-2 xl:px-3 py-2 text-sm whitespace-nowrap font-medium transition-all duration-300 group",
-                    isActive(item.href)
-                      ? "text-green-800"
-                      : "text-gray-700 hover:text-green-800"
-                  )}
-                >
-                  <span className="relative z-10">{item.name}</span>
-                  <div
-                    className={cn(
-                      "absolute inset-0 rounded-lg transition-all duration-300 opacity-0 -z-0",
-                      isActive(item.href)
-                        ? "bg-green-50/80 opacity-100"
-                        : "group-hover:opacity-100 group-hover:bg-gray-50/80"
-                    )}
-                  />
-                  <div
-                    className={cn(
-                      "absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-green-500 to-yellow-500 rounded-full transition-all duration-300",
-                      isActive(item.href) ? "w-full" : "w-0 group-hover:w-full"
-                    )}
-                  />
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div className="hidden lg:flex items-center ml-4">
-            <Link to="/join">
-              <Button
-                className={cn(
-                  "bg-black hover:bg-gray-900",
-                  "text-white font-semibold",
-                  "transition-colors",
-                  "px-6"
-                )}
-              >
-                <span className="whitespace-nowrap">Join Us</span>
-              </Button>
-            </Link>
-          </div>
-
-          <div className="lg:hidden">
+          <div>
             <Button
               variant="ghost"
               size="sm"
               onClick={() => setIsOpen(!isOpen)}
               className={cn(
                 "relative overflow-hidden transition-all duration-300",
-                isOpen ? "bg-green-50" : "hover:bg-green-50",
+                isOpen ? "bg-white/20" : "hover:bg-white/20",
                 "p-2"
               )}
             >
               <div className="relative transform transition-all duration-300">
                 {isOpen ? (
-                  <X className="h-6 w-6 text-green-800 transform rotate-90 transition-transform duration-300" />
+                  <X className="h-6 w-6 text-white transform rotate-90 transition-transform duration-300" />
                 ) : (
-                  <Menu className="h-6 w-6 text-green-800 transform transition-transform duration-300" />
+                  <Menu className="h-6 w-6 text-white transform transition-transform duration-300" />
                 )}
               </div>
             </Button>
+          </div>
+
+          <div className="flex-grow"></div>
+
+          <div className="flex-shrink-0">
+            <Link to="/" className="flex items-center hover:opacity-90 transition-all duration-300 group">
+              <img
+                src="/SAV WOMEN.pdf.png"
+                alt="SAV WOMEN Logo"
+                className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+              />
+            </Link>
           </div>
         </div>
       </div>
 
       <div
         className={cn(
-          "lg:hidden fixed inset-0 bg-black/50 backdrop-blur-sm",
+          "fixed inset-0 bg-black/50 backdrop-blur-sm top-[4.5rem]",
           isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         )}
         onClick={() => setIsOpen(false)}
@@ -138,10 +76,10 @@ const NavigationUpdated: React.FC = () => {
 
       <div
         className={cn(
-          "lg:hidden fixed right-0 top-16 w-full max-w-sm h-[calc(100vh-4rem)]",
-          "bg-white shadow-xl border-l border-gray-100",
+          "fixed left-0 top-[4.5rem] w-full max-w-sm h-[calc(100vh-4.5rem)]",
+          "bg-white shadow-xl border-r border-gray-100",
           "transition-transform duration-300",
-          isOpen ? "translate-x-0" : "translate-x-full"
+          isOpen ? "translate-x-0" : "-translate-x-full"
         )}
       >
         <div className="h-full overflow-y-auto">

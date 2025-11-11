@@ -50,17 +50,17 @@ const About: React.FC = () => {
               main: "About",
               highlight: "SAV WOMEN"
             }}
-            description="A social innovation startup empowering women and girls in Northern Nigeria through cutting-edge digital skills, leadership development, and economic empowerment—not charity, but sustainable, scalable impact."
+            description="A social innovation startup empowering women and girls in Northern Nigeria through cutting-edge digital skills, leadership development, and economic empowerment not charity, but sustainable, scalable impact."
           />
 
           {/* Strategic Positioning Section */}
           <div className="bg-gradient-to-r from-green-50 to-green-100 border-l-4 border-green-700 p-8 rounded-lg mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">A Social Innovation Startup, Not a Charity</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">A Social Innovation Startup</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Operating from <strong>Maiduguri, Borno State</strong>, The SAV Women Foundation is strategically positioned at the nexus of technology growth and socio-economic stabilization in Northern Nigeria. We operate like a startup—agile, results-oriented, and innovation-driven—with measurable outcomes and replicable models.
+              Operating from <strong>Maiduguri, Borno State</strong>, The SAV Women Foundation is strategically positioned at the nexus of technology growth and socio-economic stabilization in Northern Nigeria. We operate like a startup, agile, results-oriented, and innovation-driven with measurable outcomes and replicable models.
             </p>
             <p className="text-lg text-gray-700">
-              Investment in SAV is not charity—it's an <strong>investment in security, stability, and Nigeria's digital future</strong>, delivering both Return on Investment (ROI) and Return on Stability (RoS).
+              Investment in SAV is not charity, it's an <strong>investment in security, stability, and Nigeria's digital future</strong>, delivering both Return on Investment (ROI) and Return on Stability (RoS).
             </p>
           </div>
 
@@ -117,7 +117,7 @@ const About: React.FC = () => {
             <div className="max-w-4xl">
               <h2 className="text-3xl font-bold mb-6">The Train-the-Trainer (TTT) Model</h2>
               <p className="text-xl text-gray-300 mb-6">
-                Our indigenous scalability mechanism: Every participant becomes a <strong>Girl of Impact Ambassador</strong>, training others in her community or school—creating a self-sustaining cycle of empowerment.
+                Our indigenous scalability mechanism: Every participant becomes a <strong>Girl of Impact Ambassador</strong>, training others in her community or school creating a self-sustaining cycle of empowerment.
               </p>
               <div className="grid md:grid-cols-3 gap-6 mt-8">
                 <div className="bg-white/10 p-6 rounded-lg">
@@ -203,43 +203,6 @@ const About: React.FC = () => {
           </div>
 
           {/* Timeline Section */}
-          <Card className="mb-16 overflow-hidden relative group">
-            <div className="absolute inset-0 bg-gradient-to-br from-green-50/50 to-yellow-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            <CardHeader className="text-center">
-              <CardTitle className="flex items-center justify-center space-x-2 text-3xl">
-                <Clock className="w-8 h-8 text-green-600" />
-                <span>Our Journey</span>
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-12 relative">
-                {/* Timeline line */}
-                <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-green-600 to-green-800" />
-                
-                {milestones.map((milestone, index) => (
-                  <div key={index} className="flex items-start space-x-8 group/item">
-                    {/* Year bubble */}
-                    <div className="relative">
-                      <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-800 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-lg transform group-hover/item:scale-110 transition-transform">
-                        {milestone.year}
-                      </div>
-                      {/* Decorative ring */}
-                      <div className="absolute -inset-2 border-2 border-green-200 rounded-full animate-pulse opacity-0 group-hover/item:opacity-100 transition-opacity" />
-                    </div>
-
-                    {/* Content */}
-                    <div className="flex-1 bg-white/60 backdrop-blur-sm p-6 rounded-xl shadow-lg transform group-hover/item:-translate-y-1 transition-all duration-300">
-                      <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center space-x-2">
-                        <span>{milestone.title}</span>
-                        <ArrowRight className="w-5 h-5 text-green-600 opacity-0 group-hover/item:opacity-100 transition-opacity" />
-                      </h3>
-                      <p className="text-gray-600 leading-relaxed">{milestone.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </main>
 

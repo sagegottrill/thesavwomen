@@ -110,42 +110,49 @@ const Programs = () => {
         </section>
 
         {/* Flagship Program Highlight */}
-        <section className="py-20 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-black text-white rounded-2xl p-12">
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <span className="bg-white/20 text-sm font-semibold px-4 py-2 rounded-full">
+        <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-50">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-gradient-to-br from-black via-gray-900 to-black text-white rounded-3xl p-12 md:p-16 shadow-2xl border border-gray-800">
+              <div className="max-w-4xl mx-auto text-center">
+                <div className="inline-flex items-center justify-center mb-8">
+                  <span className="bg-gradient-to-r from-green-400 to-emerald-400 text-black text-sm font-bold px-6 py-2.5 rounded-full shadow-lg">
                     FLAGSHIP PROGRAM
                   </span>
-                  <h2 className="text-4xl font-bold mt-6 mb-6">
-                    Girls of Impact
-                  </h2>
-                  <p className="text-xl text-gray-300 mb-6">
-                    A digital mentorship and innovation ecosystem designed to equip young women 
-                    with future-ready tech skills through our Train-the-Trainer model.
-                  </p>
-                  <ul className="space-y-3 text-lg text-gray-300 mb-8">
-                    <li>• Web & Mobile App Development</li>
-                    <li>• Data Analytics & Data Science</li>
-                    <li>• Artificial Intelligence (AI)</li>
-                    <li>• UI/UX Design & Cyber Safety</li>
-                    <li>• Digital Branding & Entrepreneurship</li>
-                  </ul>
-                  <Link to="/programs/girls-of-impact">
-                    <Button size="lg" className="bg-white text-black hover:bg-gray-100 font-semibold px-8 py-6">
-                      Learn More About Girls of Impact
-                      <ArrowRight className="ml-2 w-5 h-5" />
-                    </Button>
-                  </Link>
                 </div>
-                <div>
-                  <img
-                    src="https://images.unsplash.com/photo-1573497019236-17f8177b81e8?w=800&h=800&fit=crop"
-                    alt="African women collaborating in tech program"
-                    className="w-full h-[400px] object-cover rounded-lg"
-                  />
+                
+                <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
+                  Girls of Impact
+                </h2>
+                
+                <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
+                  A digital mentorship and innovation ecosystem designed to equip young women 
+                  with future-ready tech skills through our Train-the-Trainer model.
+                </p>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12 max-w-4xl mx-auto">
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
+                    <p className="text-lg font-semibold">Web & Mobile App Development</p>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
+                    <p className="text-lg font-semibold">Data Analytics & Data Science</p>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
+                    <p className="text-lg font-semibold">Artificial Intelligence (AI)</p>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
+                    <p className="text-lg font-semibold">UI/UX Design & Cyber Safety</p>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all md:col-span-2 lg:col-span-1">
+                    <p className="text-lg font-semibold">Digital Branding & Entrepreneurship</p>
+                  </div>
                 </div>
+
+                <Link to="/programs/girls-of-impact">
+                  <Button size="lg" className="bg-white text-black hover:bg-gray-100 font-bold px-10 py-7 text-lg rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    Learn More About Girls of Impact
+                    <ArrowRight className="ml-2 w-5 h-5" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

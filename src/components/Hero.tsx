@@ -8,17 +8,17 @@ const Hero: React.FC = () => {
 
   const carouselImages = [
     {
-      src: '/hero-1.jpg',
+      src: '/Building Strong Communities.jpg',
       alt: 'Group of empowered Nigerian women in community',
       caption: 'Building Strong Communities'
     },
     {
-      src: '/hero-2.jpg',
+      src: '/skills and developemnet.jpg',
       alt: 'Nigerian women collaborating on digital skills',
       caption: 'Skills & Professional Development'
     },
     {
-      src: '/hero-3.jpg',
+      src: '/our heritage.jpg',
       alt: 'Nigerian women in traditional attire celebrating unity',
       caption: 'Celebrating Our Heritage'
     }
@@ -41,15 +41,15 @@ const Hero: React.FC = () => {
   return (
     <section className="relative min-h-[100dvh] w-full pt-16 flex items-center bg-gradient-to-b from-white via-gray-50 to-white text-slate-900">
       <div className="w-full h-full flex items-center py-16 md:py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-start w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Left Column - Text Content */}
-          <div className="flex flex-col justify-center space-y-8">
+          <div className="flex flex-col justify-center space-y-8 lg:pt-8">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-gray-900">
-              Empowering Women to Echo Brilliance
+              Empowering Women to Echo Brilliance and Inspire Change
             </h1>
 
             <p className="text-xl md:text-2xl max-w-xl leading-relaxed text-gray-700 font-light">
-              Building confidence, leadership, and community for the next generation of powerful women through comprehensive programs and mentorship.
+              Driving digital inclusion. Building confidence, leadership, and community for the next generation of powerful women through comprehensive programs and mentorship.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Right Column - Carousel */}
-          <div className="flex items-center justify-center mt-8 lg:mt-0">
+          <div className="flex items-start justify-center mt-8 lg:mt-0">
             <div className="relative w-full">
               <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                 {/* Carousel Images */}

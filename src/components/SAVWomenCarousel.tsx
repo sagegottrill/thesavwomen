@@ -75,7 +75,7 @@ const SAVWomenCarousel: React.FC = () => {
             The SAV Women
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-            Discover the core pillars that drive our mission to empower young women and create lasting change
+            Discover the core values that drive our mission to empower young women and create lasting change
           </p>
         </div>
 
@@ -108,15 +108,6 @@ const SAVWomenCarousel: React.FC = () => {
           <CarouselPrevious className="hidden sm:flex -left-4 sm:left-0 lg:left-4" />
           <CarouselNext className="hidden sm:flex -right-4 sm:right-0 lg:right-4" />
         </Carousel>
-
-        <div className="text-center mt-8 sm:mt-12">
-          <p className="text-base sm:text-lg text-gray-900 font-semibold">
-            SAV WOMEN - Sound and Vibrant Women
-          </p>
-          <p className="text-sm sm:text-base text-gray-600 mt-2">
-            Empowering young women and inspiring change since 2024
-          </p>
-        </div>
       </div>
     </section>
   );

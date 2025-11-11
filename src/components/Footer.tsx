@@ -101,14 +101,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-white/10 pt-4 sm:pt-6 mt-6 sm:mt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
             <p className="text-neutral-400 text-center sm:text-left text-xs sm:text-sm order-2 sm:order-1">
-              <span className="inline-flex items-center flex-wrap justify-center sm:justify-start gap-1">
-                &copy; 2024 SAV WOMEN. All rights reserved. Made with 
-                <Heart className="inline w-3 sm:w-4 h-3 sm:h-4 text-red-400" /> 
-                for empowering women 
-                <span className="text-white font-medium">
-                  worldwide
-                </span>.
-              </span>
+              &copy; 2024 SAV WOMEN. All rights reserved.
             </p>
             <Button
               onClick={scrollToTop}

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import NavigationUpdated from '@/components/NavigationUpdated';
 import Hero from './Hero';
 import SAVWomenCarousel from './SAVWomenCarousel';
-import ValueProposition from './ValueProposition';
 import SuccessStories from './SuccessStories';
 import About from './About';
 import Newsletter from './Newsletter';
@@ -38,11 +37,6 @@ const AppLayout: React.FC = () => {
         {/* Carousel Section */}
         <section id="carousel" className="border-t-4 border-green-700">
           <SAVWomenCarousel />
-        </section>
-
-        {/* Value Proposition Section */}
-        <section id="value-proposition" className="border-t-4 border-green-700">
-          <ValueProposition />
         </section>
 
         {/* Success Stories Section */}

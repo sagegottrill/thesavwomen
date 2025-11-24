@@ -140,8 +140,8 @@ const Impact = () => {
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
                 Measurable Impact & Strategic Value
               </h1>
-              <p className="text-xl md:text-2xl text-gray-300 mb-6">
-                We operate like a startup—tracking KPIs, ROI, and Return on Stability (RoS) with rigorous, auditable metrics designed for investors and policy evaluation.
+                <p className="text-xl md:text-2xl text-gray-300 mb-6">
+                We operate with organizational rigor—tracking KPIs, ROI, and Return on Stability (RoS) with auditable metrics designed for investors and policy evaluation.
               </p>
               <div className="bg-white/10 border-l-4 border-green-400 p-6 rounded">
                 <p className="text-lg font-semibold">
@@ -178,7 +178,7 @@ const Impact = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
-                      <span className="text-gray-700">Participants launching businesses and startups</span>
+                      <span className="text-gray-700">Participants launching businesses and ventures</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />

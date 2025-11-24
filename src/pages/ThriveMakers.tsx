@@ -32,7 +32,7 @@ const ThriveMakers = () => {
 
   const outcomes = [
     'Launch or scale a successful business',
-    'Access to startup funding and investors',
+  'Access to funding and investors',
     'Strong business plan and financial model',
     'Marketing and sales expertise',
     'Business network and partnerships',
@@ -193,7 +193,7 @@ const ThriveMakers = () => {
                   <div className="text-5xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Funding Access</h3>
                   <p className="text-gray-600">
-                    Connect with angel investors, VCs, and access to startup grants and competitions
+                    Connect with angel investors, VCs, and access to grants and competitions
                   </p>
                 </CardContent>
               </Card>

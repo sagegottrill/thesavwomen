@@ -50,14 +50,14 @@ const About: React.FC = () => {
               main: "About",
               highlight: "SAV WOMEN"
             }}
-            description="A social innovation startup empowering women and girls in Northern Nigeria through cutting-edge digital skills, leadership development, and economic empowerment not charity, but sustainable, scalable impact."
+            description="A social innovation organization empowering women and girls in Northern Nigeria through cutting-edge digital skills, leadership development, and economic empowerment not charity, but sustainable, scalable impact."
           />
 
           {/* Strategic Positioning Section */}
           <div className="bg-gradient-to-r from-green-50 to-green-100 border-l-4 border-green-700 p-8 rounded-lg mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">A Social Innovation Startup</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">A Social Innovation Organization</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Operating from <strong>Borno State</strong>, The SAV Women Foundation is strategically positioned at the nexus of technology growth and socio-economic stabilization in Northern Nigeria. We operate like a startup, agile, results-oriented, and innovation-driven with measurable outcomes and replicable models.
+              Operating from <strong>Borno State</strong>, The SAV Women Foundation is strategically positioned at the nexus of technology growth and socio-economic stabilization in Northern Nigeria. We operate with agility, are results-oriented, and innovation-driven with measurable outcomes and replicable models.
             </p>
             <p className="text-lg text-gray-700">
               Investment in SAV is not charity, it's an <strong>investment in security, stability, and Nigeria's digital future</strong>, delivering both Return on Investment (ROI) and Return on Stability (RoS).

@@ -11,7 +11,7 @@ const NavigationUpdated: React.FC = () => {
     { name: 'About', href: '/about' },
     { name: 'Programs', href: '/programs' },
   { name: 'App', href: '/app' },
-  { name: 'Partners', href: '/partners' },
+  // Partners removed
     { name: 'Blog', href: '/blog' },
     { name: 'Resources', href: '/resources' },
     { name: 'Events', href: '/events' }

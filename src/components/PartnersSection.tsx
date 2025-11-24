@@ -62,7 +62,7 @@ const PartnersSection: React.FC = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Link to="/partners">
+          <Link to="/about">
             <button className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-900 transition-colors font-semibold">
               Learn About Our Partnerships
               <ArrowRight className="w-5 h-5" />

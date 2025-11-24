@@ -137,7 +137,7 @@ const WellSpring = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🧘‍♀️</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Mindfulness & Meditation</h3>
                   <p className="text-gray-600">
                     Weekly guided meditation sessions, breathing exercises, and mindfulness practices
@@ -146,7 +146,7 @@ const WellSpring = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">💬</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Counseling Support</h3>
                   <p className="text-gray-600">
                     Access to professional counselors and therapists specializing in women's wellness
@@ -155,7 +155,7 @@ const WellSpring = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">👭</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Peer Support Groups</h3>
                   <p className="text-gray-600">
                     Safe spaces to share experiences and connect with other women on similar journeys
@@ -164,7 +164,7 @@ const WellSpring = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">📚</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Wellness Workshops</h3>
                   <p className="text-gray-600">
                     Educational sessions on stress management, emotional intelligence, and self-care
@@ -173,7 +173,7 @@ const WellSpring = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🏃‍♀️</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Fitness & Nutrition</h3>
                   <p className="text-gray-600">
                     Yoga classes, fitness routines, and nutrition guidance for physical wellness
@@ -182,7 +182,7 @@ const WellSpring = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">📱</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">24/7 Resources</h3>
                   <p className="text-gray-600">
                     Online resources, crisis helplines, and digital wellness tools available anytime

@@ -102,7 +102,7 @@ const Onboarding = () => {
         <div className="bg-white rounded-xl shadow-xl p-8">
           <form onSubmit={handleSubmit} className="space-y-6">
             <OnboardingStep isActive={step === 1}>
-              <h2 className="text-2xl font-bold text-gray-900">Welcome to SAV WOMEN! 👋</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Welcome to SAV WOMEN!</h2>
               <p className="text-gray-600">Let's start with the basics</p>
               <div className="space-y-4">
                 <div>

@@ -138,7 +138,7 @@ const BrightSteps = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">📚</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Academic Tutoring</h3>
                   <p className="text-gray-600">
                     Free after-school tutoring in Math, Science, English, and other core subjects
@@ -147,7 +147,7 @@ const BrightSteps = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">👩‍🏫</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Mentorship Program</h3>
                   <p className="text-gray-600">
                     One-on-one mentorship with successful women role models and professionals
@@ -156,7 +156,7 @@ const BrightSteps = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🎨</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Extracurricular Activities</h3>
                   <p className="text-gray-600">
                     Arts, sports, coding clubs, and other activities for well-rounded development
@@ -165,7 +165,7 @@ const BrightSteps = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">💪</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Life Skills Training</h3>
                   <p className="text-gray-600">
                     Leadership, communication, financial literacy, and personal development workshops
@@ -174,7 +174,7 @@ const BrightSteps = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🎓</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Scholarship Support</h3>
                   <p className="text-gray-600">
                     Educational scholarships and financial aid for deserving students
@@ -183,7 +183,7 @@ const BrightSteps = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🏠</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Safe Spaces</h3>
                   <p className="text-gray-600">
                     Community centers where girls can learn, play, and grow in a supportive environment

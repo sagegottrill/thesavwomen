@@ -138,7 +138,7 @@ const EchoHer = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🎤</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Public Speaking Mastery</h3>
                   <p className="text-gray-600">
                     Intensive training in public speaking, presentation skills, and commanding an audience
@@ -147,7 +147,7 @@ const EchoHer = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">📢</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Advocacy Campaigns</h3>
                   <p className="text-gray-600">
                     Design and lead advocacy campaigns on issues affecting women and communities
@@ -156,7 +156,7 @@ const EchoHer = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">📺</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Media Training</h3>
                   <p className="text-gray-600">
                     Learn to engage with traditional and social media to spread your message effectively
@@ -165,7 +165,7 @@ const EchoHer = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🏛️</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Policy & Governance</h3>
                   <p className="text-gray-600">
                     Understand policy-making processes and how to influence government decisions
@@ -174,7 +174,7 @@ const EchoHer = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">✍️</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Content Creation</h3>
                   <p className="text-gray-600">
                     Create compelling content for blogs, op-eds, social media, and publications
@@ -183,7 +183,7 @@ const EchoHer = () => {
               </Card>
               <Card className="border-2">
                 <CardContent className="p-8">
-                  <div className="text-4xl mb-4">🤝</div>
+                  <div className="text-4xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Coalition Building</h3>
                   <p className="text-gray-600">
                     Build alliances and coalitions to amplify impact and drive systemic change

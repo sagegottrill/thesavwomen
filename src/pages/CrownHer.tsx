@@ -180,7 +180,7 @@ const CrownHer = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-5xl mb-4">📚</div>
+                  <div className="text-5xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Intensive Workshops</h3>
                   <p className="text-gray-600">
                     Bi-weekly leadership workshops with industry experts and successful leaders
@@ -189,7 +189,7 @@ const CrownHer = () => {
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-5xl mb-4">👥</div>
+                  <div className="text-5xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Executive Mentorship</h3>
                   <p className="text-gray-600">
                     One-on-one mentorship with C-suite executives and board members
@@ -198,7 +198,7 @@ const CrownHer = () => {
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-5xl mb-4">🎯</div>
+                  <div className="text-5xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Real-World Projects</h3>
                   <p className="text-gray-600">
                     Lead actual organizational projects and present to executive boards

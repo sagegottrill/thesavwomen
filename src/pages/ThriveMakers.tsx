@@ -190,7 +190,7 @@ const ThriveMakers = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-5xl mb-4">💰</div>
+                  <div className="text-5xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Funding Access</h3>
                   <p className="text-gray-600">
                     Connect with angel investors, VCs, and access to startup grants and competitions
@@ -199,7 +199,7 @@ const ThriveMakers = () => {
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-5xl mb-4">👥</div>
+                  <div className="text-5xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Expert Mentorship</h3>
                   <p className="text-gray-600">
                     One-on-one guidance from successful entrepreneurs and business leaders
@@ -208,7 +208,7 @@ const ThriveMakers = () => {
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-5xl mb-4">🌐</div>
+                  <div className="text-5xl mb-4"></div>
                   <h3 className="text-xl font-bold mb-3">Business Network</h3>
                   <p className="text-gray-600">
                     Join a community of entrepreneurs, access to co-working spaces and resources

@@ -10,9 +10,8 @@ const NavigationUpdated: React.FC = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Programs', href: '/programs' },
-    { name: 'App', href: '/app' },
-    { name: 'Impact', href: '/impact' },
-    { name: 'Partners', href: '/partners' },
+  { name: 'App', href: '/app' },
+  { name: 'Partners', href: '/partners' },
     { name: 'Blog', href: '/blog' },
     { name: 'Resources', href: '/resources' },
     { name: 'Events', href: '/events' }

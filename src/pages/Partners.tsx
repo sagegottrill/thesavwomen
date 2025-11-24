@@ -178,7 +178,7 @@ const Partners = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/impact">
+              <Link to="/about">
                 <Button size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-semibold px-8 py-6">
                   View Our Impact Metrics
                 </Button>

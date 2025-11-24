@@ -130,7 +130,7 @@ const MobileApp: React.FC = () => {
                   The SAV Women Mobile App
                 </h1>
                 <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-                  Built for resilience in Maiduguri. Designed for scale across Nigeria. 
+                  Built for resilience. Designed for scale across Nigeria. 
                   <strong className="text-gray-900"> Offline-first. Audit-ready. Impact-proven.</strong>
                 </p>
               </div>
@@ -316,7 +316,7 @@ const MobileApp: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Why a Mobile App for Maiduguri?
+              Why a Mobile App?
             </h2>
             <p className="text-xl text-green-100 max-w-3xl mx-auto">
               Operational resilience in a challenging infrastructure environment

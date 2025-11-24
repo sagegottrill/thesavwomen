@@ -57,7 +57,7 @@ const About: React.FC = () => {
           <div className="bg-gradient-to-r from-green-50 to-green-100 border-l-4 border-green-700 p-8 rounded-lg mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">A Social Innovation Startup</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Operating from <strong>Maiduguri, Borno State</strong>, The SAV Women Foundation is strategically positioned at the nexus of technology growth and socio-economic stabilization in Northern Nigeria. We operate like a startup, agile, results-oriented, and innovation-driven with measurable outcomes and replicable models.
+              Operating from <strong>Borno State</strong>, The SAV Women Foundation is strategically positioned at the nexus of technology growth and socio-economic stabilization in Northern Nigeria. We operate like a startup, agile, results-oriented, and innovation-driven with measurable outcomes and replicable models.
             </p>
             <p className="text-lg text-gray-700">
               Investment in SAV is not charity, it's an <strong>investment in security, stability, and Nigeria's digital future</strong>, delivering both Return on Investment (ROI) and Return on Stability (RoS).
@@ -171,12 +171,12 @@ const About: React.FC = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl">
                   <Globe className="w-6 h-6 text-green-700" />
-                  <span>Maiduguri, Borno State</span>
+                  <span>Borno State</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  Our strategic location in Maiduguri positions us at the intersection of technology growth and post-conflict recovery in Northern Nigeria.
+                  Our strategic location positions us at the intersection of technology growth and post-conflict recovery in Northern Nigeria.
                 </p>
                 <p className="text-gray-700">
                   <strong>Return on Stability (RoS):</strong> By providing high-value digital skills and economic empowerment, we address root causes of instability—poverty and illiteracy—delivering measurable security dividends alongside economic growth.

@@ -1,4 +1,4 @@
-import React from 'react';
+(import React from 'react';
 import {
   Carousel,
   CarouselContent,
@@ -41,6 +41,10 @@ const SAVWomenCarousel: React.FC = () => {
   }, [api, isPaused, startAutoplay, stopAutoplay]);
 
   const carouselItems = [
+    {
+      title: "Girls of Impact",
+      description: "A digital mentorship and innovation ecosystem designed to equip young women with future-ready tech skills through our Train-the-Trainer model.\n\nWeb & Mobile App Development\n\nData Analytics & Data Science\n\nArtificial Intelligence (AI)\n\nUI/UX Design & Cyber Safety\n\nDigital Branding & Entrepreneurship"
+    },
     {
       title: "Community Building",
       description: "Creating a supportive network where women uplift and inspire each other through shared experiences and collaboration."

@@ -147,12 +147,7 @@ const Programs = () => {
                   </div>
                 </div>
 
-                <Link to="/programs/girls-of-impact">
-                  <Button size="lg" className="bg-white text-black hover:bg-gray-100 font-bold px-10 py-7 text-lg rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                    Learn More About Girls of Impact
-                    <ArrowRight className="ml-2 w-5 h-5" />
-                  </Button>
-                </Link>
+                {/* CTA removed per content update: Learn More About Girls of Impact */}
               </div>
             </div>
           </div>

@@ -205,7 +205,7 @@ const Impact = () => {
                 </CardHeader>
                 <CardContent className="pt-6">
                   <p className="text-gray-700 mb-4 text-lg">
-                    <strong>Investment in security and stabilization</strong> in Maiduguri, Borno State—addressing root causes of conflict
+                    <strong>Investment in security and stabilization</strong> in Borno State—addressing root causes of conflict
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">

@@ -39,10 +39,7 @@ const AppLayout: React.FC = () => {
           <SAVWomenCarousel />
         </section>
 
-        {/* Success Stories Section */}
-        <section id="success-stories" className="border-t-4 border-green-700">
-          <SuccessStories />
-        </section>
+        {/* Success Stories Section removed per content update */}
 
         {/* About Section */}
         <section id="about">

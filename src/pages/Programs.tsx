@@ -142,9 +142,7 @@ const Programs = () => {
                   <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
                     <p className="text-lg font-semibold">UI/UX Design & Cyber Safety</p>
                   </div>
-                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all md:col-span-2 lg:col-span-1">
-                    <p className="text-lg font-semibold">Digital Branding & Entrepreneurship</p>
-                  </div>
+                  {/* 'Digital Branding & Entrepreneurship' removed per request */}
                 </div>
 
                 {/* CTA removed per content update: Learn More About Girls of Impact */}

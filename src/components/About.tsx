@@ -29,7 +29,7 @@ const About: React.FC = () => {
           {/* Content */}
           <div className="space-y-12">
             <div className="max-w-4xl">
-              <span className="inline-block text-sm font-semibold text-green-700 uppercase tracking-wider bg-green-50 px-4 py-2 rounded-full">About SAV Women</span>
+              {/* 'About SAV Women' badge removed per content update */}
               <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mt-6 mb-8 leading-tight">
                 Empowering Every Voice
               </h2>

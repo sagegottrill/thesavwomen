@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
       setCurrentSlide((prev) => (prev + 1) % carouselImages.length);
     }, 5000);
     return () => clearInterval(timer);
-  }, []);
+  }, [carouselImages.length]);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % carouselImages.length);
@@ -80,9 +80,8 @@ const Hero: React.FC = () => {
                   {carouselImages.map((image, index) => (
                     <div
                       key={index}
-                      className={`absolute inset-0 transition-opacity duration-1000 ${
-                        index === currentSlide ? 'opacity-100' : 'opacity-0'
-                      }`}
+                      className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? 'opacity-100' : 'opacity-0'
+                        }`}
                     >
                       <img
                         src={image.src}
@@ -119,9 +118,8 @@ const Hero: React.FC = () => {
                     <button
                       key={index}
                       onClick={() => setCurrentSlide(index)}
-                      className={`h-2 rounded-full transition-all duration-300 ${
-                        index === currentSlide ? 'bg-white w-10' : 'bg-white/60 w-2 hover:bg-white/80'
-                      }`}
+                      className={`h-2 rounded-full transition-all duration-300 ${index === currentSlide ? 'bg-white w-10' : 'bg-white/60 w-2 hover:bg-white/80'
+                        }`}
                       aria-label={`Go to slide ${index + 1}`}
                     />
                   ))}

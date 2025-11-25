@@ -106,7 +106,7 @@ const Partners = () => {
               </p>
               <div className="bg-white/10 border-l-4 border-green-400 p-6 rounded">
                 <p className="text-lg font-semibold">
-                  We offer institutional partners a "plug-and-play" solution for NDEPS implementation, regional balancing, and conflict-zone stabilization—not charity, but strategic infrastructure.
+                  We offer institutional partners a "plug-and-play" solution for NDEPS implementation, regional balancing, and conflict-zone stabilization—strategic infrastructure.
                 </p>
               </div>
             </div>

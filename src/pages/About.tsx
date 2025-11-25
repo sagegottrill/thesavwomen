@@ -18,21 +18,22 @@ import {
   TrendingUp
 } from 'lucide-react';
 
-const About: React.FC = () => {
-  const stats = [
-    { label: 'Women Empowered', value: '500+' },
-    { label: 'Programs Completed', value: '50+' },
-    { label: 'Communities Reached', value: '25+' },
-    { label: 'Success Stories', value: '200+' }
-  ];
+const stats = [
+  { label: 'Women Empowered', value: '500+' },
+  { label: 'Programs Completed', value: '50+' },
+  { label: 'Communities Reached', value: '25+' },
+  { label: 'Success Stories', value: '200+' }
+];
 
-  const milestones = [
-    { year: '2024', title: 'Founded', description: 'SAV WOMEN launched' },
-    { year: '2025', title: 'First Program', description: '50 women completed leadership training' },
-    { year: '2025', title: 'Community Growth', description: 'Expanded to 10 communities' },
-    { year: '2025', title: 'Digital Platform', description: 'Launched online resources and tools' },
-    { year: '2025', title: 'Global Reach', description: 'Supporting women across 25+ communities' }
-  ];
+const milestones = [
+  { year: '2024', title: 'Founded', description: 'SAV WOMEN launched' },
+  { year: '2025', title: 'First Program', description: '50 women completed leadership training' },
+  { year: '2025', title: 'Community Growth', description: 'Expanded to 10 communities' },
+  { year: '2025', title: 'Digital Platform', description: 'Launched online resources and tools' },
+  { year: '2025', title: 'Global Reach', description: 'Supporting women across 25+ communities' }
+];
+
+const About: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
@@ -50,7 +51,7 @@ const About: React.FC = () => {
               main: "About",
               highlight: "SAV WOMEN"
             }}
-            description="A social innovation organization empowering women and girls in Northern Nigeria through cutting-edge digital skills, leadership development, and economic empowerment not charity, but sustainable, scalable impact."
+              description="A social innovation organization empowering women and girls in Northern Nigeria through cutting-edge digital skills, leadership development, and economic empowerment, delivering sustainable, scalable impact."
           />
 
           {/* Strategic Positioning Section */}
@@ -59,9 +60,9 @@ const About: React.FC = () => {
             <p className="text-lg text-gray-700 mb-4">
               Operating from <strong>Borno State</strong>, The SAV Women Foundation is strategically positioned at the nexus of technology growth and socio-economic stabilization in Northern Nigeria. We operate with agility, are results-oriented, and innovation-driven with measurable outcomes and replicable models.
             </p>
-            <p className="text-lg text-gray-700">
-              Investment in SAV is not charity, it's an <strong>investment in security, stability, and Nigeria's digital future</strong>, delivering both Return on Investment (ROI) and Return on Stability (RoS).
-            </p>
+              <p className="text-lg text-gray-700">
+                Investment in SAV is an <strong>investment in security, stability, and Nigeria's digital future</strong>, delivering both Return on Investment (ROI) and Return on Stability (RoS).
+              </p>
           </div>
 
           {/* Mission Section */}
@@ -94,6 +95,7 @@ const About: React.FC = () => {
                 <ul className="space-y-3">
                   {[
                     'Measurable outcomes over charity dependency',
+                      'Measurable outcomes over donor dependency',
                     'Indigenous, scalable Train-the-Trainer (TTT) model',
                     'High-value digital skills (AI, Data Science, Coding)',
                     'Holistic development: technical + mental resilience',

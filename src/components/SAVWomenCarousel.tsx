@@ -6,11 +6,12 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
 
 const SAVWomenCarousel: React.FC = () => {
-  const [api, setApi] = React.useState<any>();
+  const [api, setApi] = React.useState<CarouselApi>();
   const intervalRef = React.useRef<number>();
   const [isPaused, setIsPaused] = React.useState(false);
 

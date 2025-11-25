@@ -145,7 +145,7 @@ const Impact = () => {
               </p>
               <div className="bg-white/10 border-l-4 border-green-400 p-6 rounded">
                 <p className="text-lg font-semibold">
-                  Investment in SAV is not charity—it's optimized expenditure on national policy execution, economic growth, and security stabilization.
+                  Investment in SAV is optimized expenditure on national policy execution, economic growth, and security stabilization.
                 </p>
               </div>
             </div>
@@ -239,7 +239,7 @@ const Impact = () => {
                 Five-Point KPI Framework
               </h2>
               <p className="text-xl text-gray-600">
-                Investment language, not charity metrics
+                Investment language, focused on measurable impact
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

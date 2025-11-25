@@ -109,47 +109,7 @@ const Programs = () => {
           </div>
         </section>
 
-        {/* Flagship Program Highlight */}
-        <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-50">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-gradient-to-br from-black via-gray-900 to-black text-white rounded-3xl p-12 md:p-16 shadow-2xl border border-gray-800">
-              <div className="max-w-4xl mx-auto text-center">
-                <div className="inline-flex items-center justify-center mb-8">
-                  <span className="bg-gradient-to-r from-green-400 to-emerald-400 text-black text-sm font-bold px-6 py-2.5 rounded-full shadow-lg">
-                    FLAGSHIP PROGRAM
-                  </span>
-                </div>
-                
-                <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
-                  Girls of Impact
-                </h2>
-                
-                <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
-                  A digital mentorship and innovation ecosystem designed to equip young women 
-                  with future-ready tech skills through our Train-the-Trainer model.
-                </p>
-
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12 max-w-4xl mx-auto">
-                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
-                    <p className="text-lg font-semibold">Web & Mobile App Development</p>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
-                    <p className="text-lg font-semibold">Data Analytics & Data Science</p>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
-                    <p className="text-lg font-semibold">Artificial Intelligence (AI)</p>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/15 transition-all">
-                    <p className="text-lg font-semibold">UI/UX Design & Cyber Safety</p>
-                  </div>
-                  {/* 'Digital Branding & Entrepreneurship' removed per request */}
-                </div>
-
-                {/* CTA removed per content update: Learn More About Girls of Impact */}
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* Flagship Program section removed */}
 
         {/* All Programs Grid */}
         <section className="py-20">

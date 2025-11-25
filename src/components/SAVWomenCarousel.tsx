@@ -124,8 +124,8 @@ const SAVWomenCarousel: React.FC = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="hidden sm:flex -left-4 sm:left-0 lg:left-4" />
-          <CarouselNext className="hidden sm:flex -right-4 sm:right-0 lg:right-4" />
+          <CarouselPrevious className="flex -left-4 lg:left-4 bg-white/80 hover:bg-white border-green-100 text-green-700" />
+          <CarouselNext className="flex -right-4 lg:right-4 bg-white/80 hover:bg-white border-green-100 text-green-700" />
         </Carousel>
       </div>
     </section>

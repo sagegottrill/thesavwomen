@@ -58,13 +58,9 @@ const AppLayout: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <Footer />
-
-      {/* Scroll to top button */}
-      {/* Enhanced scroll to top button with progress indicator */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className={`fixed bottom-8 right-8 z-50 p-4 rounded-full shadow-xl transition-all duration-500 
+        className={`fixed bottom-4 right-4 sm:bottom-8 sm:right-8 z-50 p-3 sm:p-4 rounded-full shadow-xl transition-all duration-500 
           transform group ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         style={{
           background: `conic-gradient(from 0deg at 50% 50%, 
@@ -95,12 +91,12 @@ const AppLayout: React.FC = () => {
 
       {/* Progress bar */}
       <div className="fixed top-0 left-0 w-full h-1 z-50">
-        <div 
+        <div
           className="h-full bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 transition-all duration-300"
           style={{ width: `${scrollProgress * 100}%` }}
         ></div>
       </div>
-    </div>
+    </div >
   );
 };
 

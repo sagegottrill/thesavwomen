@@ -62,14 +62,7 @@ const About: React.FC = () => {
               ))}
             </div>
 
-            <div className="pt-8">
-              <Link to="/about">
-                <Button size="lg" className="group bg-black hover:bg-gray-900 text-white font-semibold px-10 py-7 rounded-xl transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
-                  Learn More About Our Mission
-                  <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
-            </div>
+            {/* 'Learn More About Our Mission' CTA removed per content update */}
           </div>
         </div>
       </div>

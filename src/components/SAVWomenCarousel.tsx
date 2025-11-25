@@ -1,4 +1,5 @@
-(import React from 'react';
+import React from 'react';
+// cleaned: ensure no stray characters before import
 import {
   Carousel,
   CarouselContent,
@@ -74,13 +75,26 @@ const SAVWomenCarousel: React.FC = () => {
   return (
     <section className="min-h-screen py-16 md:py-24 flex items-center bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-            The SAV Women
+        <div className="text-center mb-10 sm:mb-14">
+          <div className="inline-flex items-center justify-center mb-4">
+            <span className="text-sm font-semibold text-green-700 uppercase tracking-wider bg-green-50 px-4 py-2 rounded-full shadow-sm">
+              The SAV Women
+            </span>
+          </div>
+
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-700 to-emerald-500 mb-4">
+            Empowering Women Through Technology
           </h2>
-          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-            Discover the core values that drive our mission to empower young women and create lasting change
+
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-4 leading-relaxed">
+            Discover the core values that drive our mission to empower young women with future-ready skills, leadership, and community-driven impact.
           </p>
+
+          <div className="mt-6 flex items-center justify-center gap-4">
+            <div className="h-1 w-24 bg-green-100 rounded-full"></div>
+            <div className="h-1 w-8 bg-green-300 rounded-full"></div>
+            <div className="h-1 w-4 bg-green-500 rounded-full"></div>
+          </div>
         </div>
 
         <Carousel
